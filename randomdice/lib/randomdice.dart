@@ -14,10 +14,10 @@ class _RandomdiceState extends State<Randomdice> {
   int Leftdice=1;
 
 
-   void randomdice(){
-     Rightdice=Random().nextInt(6)+1;
-     Leftdice=Random().nextInt(6)+1;
-   }
+   // void randomdice(){
+   //   Rightdice=Random().nextInt(6)+1;
+   //   Leftdice=Random().nextInt(6)+1;
+   // }
 
 
   @override
@@ -43,7 +43,7 @@ class _RandomdiceState extends State<Randomdice> {
                   child: TextButton(
                     onPressed: () {
                       setState(() {
-                        randomdice();
+                        // randomdice();
                         // Rightdice=Random().nextInt(6)+1;
                         // Leftdice=Random().nextInt(6)+1;
                       });
@@ -68,7 +68,7 @@ class _RandomdiceState extends State<Randomdice> {
                   child: TextButton(
                     onPressed: () {
                         setState(() {
-                          randomdice();
+                          // randomdice();
                           // Rightdice=Random().nextInt(6)+1;
                           // Leftdice=Random().nextInt(6)+1;
                         });
